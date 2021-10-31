@@ -1,3 +1,5 @@
+# Running Locally
+
 1. Install the dependencies
 
 ```sh
@@ -23,3 +25,9 @@ npx hardhat run scripts/deploy.js --network localhost
 ```sh
 npm start
 ```
+
+# Troubleshooting
+
+### Nonce to high error
+
+uninstall metamask and reinstall, then add the private key from npx hardhat node
